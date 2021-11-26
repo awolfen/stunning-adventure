@@ -1,5 +1,18 @@
+.background {
+  background-color: #ff9966;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+}
+
 .App {
   text-align: center;
+}
+
+.card.business-card {
+  display: inline-block;
+  margin: 5rem;
+  padding: 2rem;
 }
 
 .App-header {
@@ -18,5 +31,5 @@
 }
 
 .divider {
-  width: 50%;
+  width: 80%;
 }

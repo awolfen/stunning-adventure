@@ -33,3 +33,33 @@
 .divider {
   width: 80%;
 }
+
+@media (max-width: 767px) {
+  .welcome-message {
+    font-size: 40px;
+  }
+
+  .blurb {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 618px) {
+  .card.business-card {
+    display: inline-grid;
+  }
+
+  .button {
+    margin: 1rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .welcome-message {
+    font-size: 20px;
+  }
+
+  .blurb {
+    font-size: 10px;
+  }
+}
